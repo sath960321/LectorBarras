@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CMB</string>
+    <string name="escaner_de_barras">bar scanner</string>
+    <string name="escanear">scan</string>
+</resources>

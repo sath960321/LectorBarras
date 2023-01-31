@@ -1,0 +1,2 @@
+rootProject.name = "Lector Barras"
+include ':app'

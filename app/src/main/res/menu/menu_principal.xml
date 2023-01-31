@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuListar"
+        android:title="@string/listado_de_medios"/>
+    <item
+        android:id="@+id/menuUbicacion"
+        android:title="@string/menu_ubicacion" />
+    <item
+        android:id="@+id/menuNuevo"
+        android:title="@string/menu_nuevo" />
+    <item
+        android:id="@+id/menuInventario"
+        android:title="@string/inventario_mensual"/>
+    <item
+        android:id="@+id/menuFichaTecnica"
+        android:title="@string/ficha_tecnica"/>
+    <item
+        android:id="@+id/menuEstadoPC"
+        android:title="@string/estado_pc"/>
+</menu>

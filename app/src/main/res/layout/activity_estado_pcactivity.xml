@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/colorBlueDark"
+    android:orientation="vertical"
+    tools:context=".EstadoPCActivity">
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/CameraAction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/identificador"
+        app:endIconMode="custom"
+        app:endIconDrawable="@drawable/ic_baseline_camera_alt_24">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/IdenMB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:hint="@string/estado">
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompletetextview2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="none"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:hint="Observaciones">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/Observaciones"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:lines="6"
+            android:gravity="top"
+            android:overScrollMode="always"
+            android:scrollbars="vertical"
+            android:scrollbarStyle="insideInset"
+            android:scrollHorizontally="false" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnInsertStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Insertar"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="538dp" />
+
+
+</LinearLayout>

@@ -1,0 +1,63 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">CMB</string>
+    <string name="escaner_de_barras">Escaner de Barras</string>
+    <string name="escanear">Escanear</string>
+    <string name="title_activity_settings" translatable="false">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header" tools:ignore="MissingTranslation">Messages</string>
+    <string name="sync_header" tools:ignore="MissingTranslation">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title" tools:ignore="MissingTranslation">Your signature</string>
+    <string name="reply_title" tools:ignore="MissingTranslation">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title" tools:ignore="MissingTranslation">Sync email periodically</string>
+    <string name="attachment_title" tools:ignore="MissingTranslation">Download incoming attachments</string>
+    <string name="attachment_summary_on" tools:ignore="MissingTranslation">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off" tools:ignore="MissingTranslation">Only download attachments when manually requested</string>
+    <string name="menu_nuevo" tools:ignore="MissingTranslation">Nuevo</string>
+    <string name="menu_reparacion" tools:ignore="MissingTranslation">Reparacion</string>
+    <string name="menu_ubicacion" tools:ignore="MissingTranslation">Ubicacion</string>
+    <string name="ubicacion" tools:ignore="MissingTranslation">Ubicacion</string>
+    <string name="descripcion" tools:ignore="MissingTranslation">Descripcion</string>
+    <string name="tipo" tools:ignore="MissingTranslation">Tipo</string>
+    <string name="identificador" tools:ignore="MissingTranslation">Identificador</string>
+    <string name="hint_identificador" tools:ignore="MissingTranslation">Identificador:</string>
+    <string name="hint_tipo" tools:ignore="MissingTranslation">tipo</string>
+    <string name="hint_descripcion" tools:ignore="MissingTranslation">descripcion</string>
+    <string name="hint_ubicacion" tools:ignore="MissingTranslation">ubicacion</string>
+    <string name="menu_ver" tools:ignore="MissingTranslation">Ver</string>
+    <string name="buscar_mb" tools:ignore="MissingTranslation">Buscar</string>
+    <string name="guardar">Guardar</string>
+    <string name="fecha_de_conteo">Fecha de Conteo</string>
+    <string name="inventario_mensual">Inventario</string>
+    <string name="ficha_tecnica">Ficha Tecnica</string>
+    <string name="area_de_responsabilidad">Area de Responsabilidad</string>
+    <string name="no_inventario">No inventario</string>
+    <string name="responsable">Responsable</string>
+    <string name="puesto">Puesto</string>
+    <string name="local">Local</string>
+    <string name="no_serie">No Serie</string>
+    <string name="no_sello">No Sello</string>
+    <string name="url">url</string>
+    <string name="listado_de_medios">Listado de Medios</string>
+    <string name="listado">Listado</string>
+    <string name="secondary_text">Secondary text</string>
+    <string name="conteo_mensual">Conteo mensual</string>
+    <string name="total_de_medios">Total de medios</string>
+    <string name="nuevo_medios">Nuevo</string>
+    <string name="nuevos_medios">Nuevos medios</string>
+    <string name="expedientes_tecnicos">Expedientes PC</string>
+    <string name="estado_pc">Estado PC</string>
+    <string name="status">status</string>
+    <string name="generar">Generar</string>
+    <string name="generar_codigos1">Generar Codigos</string>
+    <string name="codigo_a_generar">Codigo a Generar</string>
+    <string name="estado">Estado</string>
+    <string name="add">Add</string>
+
+
+</resources>
